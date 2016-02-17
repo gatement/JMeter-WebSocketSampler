@@ -12,4 +12,4 @@ Source project: https://github.com/maciejzaleski/JMeter-WebSocketSampler
 
 Johnson Changes:
 ------------------------
-1. Fix the websocket port can not be parameterized issue: just return value but do not try parsing it to integer because the value could be a variable string such as '${PORT}'['WebSocketSampler.java::getServerPort()']
+1. Fix the websocket port can not be parameterized issue: just return value but do not try parsing it to integer because the value could be a variable string such as '${PORT}' (in 'WebSocketSampler.getServerPort())
